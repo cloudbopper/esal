@@ -33,7 +33,7 @@ set of meaningful operations (selection, counting, transformation).
 Documentation
 -------------
 
-https://esal.readthedocs.io.
+https://esal.readthedocs.io
 
 --------
 Features
@@ -77,9 +77,9 @@ Install
 
 Replace `<name>` with the name of the tag, branch, or commit you want to
 install, e.g. "master" or "v0.2.0".  If you don't have a `pip3`, replace
-it with `python3 -m pip`.  For more information, see the [Pip
-documentation]( https://pip.pypa.io/).
+it with `python3 -m pip`.  For more information, see the `Pip documentation`_.
 
+.. _Pip documentation: https://pip.pypa.io/
 
 -------
 License
@@ -103,13 +103,17 @@ conceptual overview of events and sequences.
 Contact
 -------
 
-* [Aubrey Barnard](https://github.com/afbarnard)
-* [Akshay Sood](https://github.com/cloudbopper)
+* `Aubrey Barnard`_
+* `Akshay Sood`_
 
-[Open an issue](https://github.com/cloudbopper/esal/issues/new) to report
+.. _Aubrey Barnard: https://github.com/afbarnard
+.. _Akshay Sood: https://github.com/cloudbopper
+
+`Open an issue`_ to report
 a bug or ask a question.  To contribute, use the regular fork and pull
 request work flow.
 
+.. _Open an issue: https://github.com/cloudbopper/esal/issues/new
 
 -----
 
