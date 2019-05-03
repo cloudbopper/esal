@@ -1,6 +1,26 @@
+===============================
 Event Sequence Analysis Library
 ===============================
 
+.. image:: https://img.shields.io/pypi/v/esal.svg
+        :target: https://pypi.python.org/pypi/esal
+
+.. image:: https://img.shields.io/travis/cloudbopper/esal.svg
+        :target: https://travis-ci.org/cloudbopper/esal
+
+.. image:: https://readthedocs.org/projects/esal/badge/?version=latest
+        :target: https://esal.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/cloudbopper/esal/shield.svg
+     :target: https://pyup.io/repos/github/cloudbopper/esal/
+     :alt: Updates
+
+
+ --------
+ Overview
+ --------
 
 Esal ("easel") is a library for the descriptive statistical analysis and
 manipulation of event sequences and timelines.  Esal is intended to be
@@ -9,7 +29,13 @@ but does not do any modeling itself.  Conceptually, Esal is a
 representation for a dataset of sequences / timelines and an associated
 set of meaningful operations (selection, counting, transformation).
 
+-------------
+Documentation
+-------------
 
+https://esal.readthedocs.io.
+
+--------
 Features
 --------
 
@@ -36,16 +62,18 @@ yet been organized into an official API.  Feel free to look through the
 code.  Suggestions are welcome.
 
 
+------------
 Requirements
 ------------
 
 * Python 3
 
 
+-------
 Install
 -------
 
-    pip3 install [--user] https://github.com/afbarnard/esal/archive/<name>.zip#egg=esal
+    pip3 install [--user] https://github.com/cloudbopper/esal/archive/<name>.zip#egg=esal
 
 Replace `<name>` with the name of the tag, branch, or commit you want to
 install, e.g. "master" or "v0.2.0".  If you don't have a `pip3`, replace
@@ -53,6 +81,7 @@ it with `python3 -m pip`.  For more information, see the [Pip
 documentation]( https://pip.pypa.io/).
 
 
+-------
 License
 -------
 
@@ -60,25 +89,29 @@ Esal is free, open source software.  It is released under the MIT
 license.  See the `LICENSE` file for details.
 
 
+--------
 Concepts
 --------
 
-See the [package documentation](
-https://github.com/afbarnard/esal/blob/master/esal/__init__.py) for a
+See the `package documentation`_ for a
 conceptual overview of events and sequences.
 
+.. _package documentation: https://esal.readthedocs.io.
 
+
+-------
 Contact
 -------
 
 * [Aubrey Barnard](https://github.com/afbarnard)
+* [Akshay Sood](https://github.com/cloudbopper)
 
-[Open an issue](https://github.com/afbarnard/esal/issues/new) to report
+[Open an issue](https://github.com/cloudbopper/esal/issues/new) to report
 a bug or ask a question.  To contribute, use the regular fork and pull
 request work flow.
 
 
 -----
 
-Copyright (c) 2018 Aubrey Barnard.  This is free software.  See LICENSE
+Copyright (c) 2019 Aubrey Barnard, Akshay Sood.  This is free software.  See LICENSE
 for details.
