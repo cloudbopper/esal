@@ -25,9 +25,9 @@ setuptools.setup(
     # Basics
     name='esal',
     version=esal.__version__,
-    url='https://github.com/afbarnard/esal',
+    url='https://github.com/cloudbopper/esal',
     license='MIT',
-    author='Aubrey Barnard',
+    author='Aubrey Barnard, Akshay Sood',
     #author_email='',
 
     # Description
