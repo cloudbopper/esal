@@ -6,7 +6,7 @@
 import datetime
 import unittest
 
-from ..interval import AllenRelation, Interval, CompoundInterval
+from esal.interval import AllenRelation, Interval, CompoundInterval
 
 
 class AllenRelationTest(unittest.TestCase):

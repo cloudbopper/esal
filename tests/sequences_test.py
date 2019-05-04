@@ -8,8 +8,8 @@ import random
 import unittest
 
 from . import data
-from .. import events
-from .. import sequences
+from esal import events
+from esal import sequences
 
 
 class SequenceTests(unittest.TestCase):

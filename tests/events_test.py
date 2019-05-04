@@ -5,8 +5,8 @@
 
 import unittest
 
-from .. import events
-from .. import general
+from esal import events
+from esal import general
 
 
 class HeaderTest(unittest.TestCase):

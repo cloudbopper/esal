@@ -8,7 +8,7 @@ import math
 import random
 import unittest
 
-from ..sorted_search import Target, binary_search, _binary_search
+from esal.sorted_search import Target, binary_search, _binary_search
 
 
 class BinarySearchTest(unittest.TestCase):

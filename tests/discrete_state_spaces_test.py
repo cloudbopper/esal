@@ -5,7 +5,7 @@
 
 import unittest
 
-from .. import discrete_state_spaces as dss
+from esal import discrete_state_spaces as dss
 
 
 class PermutationSpaceTest(unittest.TestCase):

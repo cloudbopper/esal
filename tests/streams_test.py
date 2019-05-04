@@ -7,8 +7,8 @@ import itertools as itools
 import unittest
 
 from . import data
-from .. import engine
-from .. import streams
+from esal import engine
+from esal import streams
 
 
 class EventStreamOperationsTest(unittest.TestCase):

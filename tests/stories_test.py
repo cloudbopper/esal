@@ -7,10 +7,10 @@ import itertools as itools
 import unittest
 
 from . import data
-from .. import engine
-from .. import events
-from .. import sequences
-from .. import streams
+from esal import engine
+from esal import events
+from esal import sequences
+from esal import streams
 
 
 # Selection predicates

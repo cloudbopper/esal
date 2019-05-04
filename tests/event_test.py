@@ -8,8 +8,8 @@ import operator
 import string
 import unittest
 
-from ..event import Event, EventSequence, mk_union_aggregator
-from ..interval import Interval
+from esal.event import Event, EventSequence, mk_union_aggregator
+from esal.interval import Interval
 
 
 class EventSequenceTest(unittest.TestCase):

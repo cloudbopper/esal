@@ -5,7 +5,7 @@
 
 import itertools as itools
 
-from .. import events
+from esal import events
 
 
 # Raw tuples for binary events in "data order"

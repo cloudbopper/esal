@@ -6,7 +6,7 @@
 import datetime
 import unittest
 
-from .. import general
+from esal import general
 
 
 class FirstsTest(unittest.TestCase):
@@ -154,7 +154,7 @@ class FullyQualifiedTypeNameTest(unittest.TestCase):
 
     def test_nested_modules(self):
         self.assertEqual(
-            'esal.test.general_test.FullyQualifiedTypeNameTest',
+            'tests.general_test.FullyQualifiedTypeNameTest',
             general.fq_typename(self))
 
 
