@@ -11,3 +11,6 @@ __pycache__
 
 # Ignore synchronization directory
 sync
+
+# macOS files
+.DS_Store
